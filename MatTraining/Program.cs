@@ -28,7 +28,7 @@ namespace MatTraining
                     mat[i, j] = int.Parse(values[j]);
                 }
             }
-            Console.WriteLine();
+            Console.WriteLine("Escolha um dos números digitados acima: ");
             int x = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < r; i++)
